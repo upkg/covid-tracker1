@@ -1,0 +1,20 @@
+.results__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.results {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.results__left {
+    flex: 0.9;
+}
+
+@media (max-width: 990px) {
+  .results {
+    flex-direction: column;
+  }
+}

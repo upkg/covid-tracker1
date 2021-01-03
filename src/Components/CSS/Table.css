@@ -1,0 +1,35 @@
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  color: #6a5d5d;
+  background-color: white;
+}
+
+/* grayig the background of the odd countru=ies  */
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
+
+/* letting the tr use its entire part the entire  */
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+/* hide scroll bar  */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.table::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.table {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
